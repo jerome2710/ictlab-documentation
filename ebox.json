@@ -1,0 +1,11 @@
+{
+    "hosts": [
+        "docs.chibb-box.nl.ebox"
+    ],
+    "webroot": "/",
+    "database": {
+        "name": [""],
+        "user": "",
+        "password": ""
+    }
+}

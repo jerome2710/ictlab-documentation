@@ -1,0 +1,7 @@
+# Global
+.idea
+
+# Cron
+cron/node_modules
+cron/.npm
+cron/npm-debug.log*
