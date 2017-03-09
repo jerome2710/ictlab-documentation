@@ -35,6 +35,7 @@
 
             <div class="col-sm-9">
                 <h1>CHIBB - Documentation</h1>
+                <img src="http://145.24.222.61:8080/job/ictlab-documentation/badge/icon">
                 <hr>
                 <p>
                     To allow all students to access sensor-data, the project is separated in three different components. Data accumulation will be provided, data processing should be
