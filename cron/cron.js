@@ -1,10 +1,11 @@
+var config = require('./config');
 var mqtt = require('mqtt');
 
 var options = {
-    port: 8083,
+    port: config.mqtt.port,
     clientId: 'mqttjs_' + Math.random().toString(16).substr(2, 8),
-    username: '',
-    password: ''
+    username: config.mqtt.username,
+    password: config.mqtt.password
 };
 
 // Create a client connection

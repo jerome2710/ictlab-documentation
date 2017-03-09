@@ -5,3 +5,4 @@
 cron/node_modules
 cron/.npm
 cron/npm-debug.log*
+cron/config.js
