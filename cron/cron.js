@@ -27,6 +27,7 @@ var sensors = {
 
 var message = {
     'uuid': uuids[Math.floor((Math.random() * uuids.length))],
+    'location': 'CHIBB',
     'readings': [],
     'battery': parseFloat(((Math.random() * 100) + 1).toFixed(2))
 };
