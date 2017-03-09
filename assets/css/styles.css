@@ -1,0 +1,74 @@
+body {
+	font-size: 15px;
+	line-height: 1.333;
+	font-family: 'Raleway', Helvetica, Verdana, Arial, sans-serif;
+	background-color: #fff;
+}
+
+.container {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+/* small screens */
+@media (max-width: 768px) {
+	/* override the Affix plugin so that the navigation isn't sticky */
+	.affix {
+		position: static;
+	}
+
+	/* display the second-level nav */
+	.affix nav .nav .nav {
+		display: block;
+	}
+}
+
+h1 {
+	font-weight: 800;
+}
+
+.nav-tabs li a {
+	font-size: 18px;
+}
+
+.tab-pane {
+	background-color: #dde0e2;
+	padding: 20px;
+}
+
+hr {
+	border-top: 1px solid #bdc3c7;
+}
+
+/* JSON code snippets */
+pre {
+	outline: 1px solid #ccc;
+	padding: 5px;
+	margin: 5px;
+}
+
+.string {
+	color: green;
+}
+
+.number {
+	color: darkorange;
+}
+
+.boolean {
+	color: blue;
+}
+
+.null {
+	color: magenta;
+}
+
+.key {
+	color: red;
+}
+
+.copyright {
+	margin-top: 25px;
+	font-style: italic;
+	text-align: center;
+}
