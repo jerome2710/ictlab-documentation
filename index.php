@@ -35,7 +35,6 @@
 
             <div class="col-sm-9">
                 <h1>CHIBB - Documentation</h1>
-                <img src="http://145.24.222.61:8080/job/ictlab-documentation/badge/icon">
                 <hr>
                 <p>
                     To allow all students to access sensor-data, the project is separated in three different components. Data accumulation will be provided, data processing should be
@@ -216,6 +215,15 @@
                 <hr>
 
 
+
+
+
+                <h2>Security</h2>
+                <p>
+                    To ensure all sensor-data is transferred through the internet in a secure manner, SSL is used on all user-accessible domains. The certificates are provided by
+                    <a href="https://letsencrypt.org" target="_blank">Let's Encrypt</a>. While the certificates are only valid for 90 days, a cronjob will be running to renew them.
+                </p>
+                <hr>
 
 
 
