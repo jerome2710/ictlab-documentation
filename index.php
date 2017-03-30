@@ -286,25 +286,25 @@
                                 <td>Data accumulation (MQTT)</td>
                                 <td></td>
                             </tr>
-                            <tr>
+                            <tr class="success">
                                 <td>4</td>
                                 <td>10</td>
                                 <td>Data processing (NodeJS & API)</td>
                                 <td>Planning</td>
                             </tr>
-                            <tr>
+                            <tr class="success">
                                 <td>5</td>
                                 <td>11</td>
                                 <td>Data processing (NodeJS & API)</td>
                                 <td></td>
                             </tr>
-                            <tr>
+                            <tr class="success">
                                 <td>6</td>
                                 <td>12</td>
                                 <td>Data processing (NodeJS & API)</td>
                                 <td></td>
                             </tr>
-                            <tr>
+                            <tr class="warning">
                                 <td>7</td>
                                 <td>13</td>
                                 <td>Data processing (NodeJS & API)</td>
