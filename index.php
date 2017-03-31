@@ -395,6 +395,16 @@
 
 
 
+                <h2>Presentations</h2>
+                <p>The following links will redirect to presentations made in <a href="https://slides.com" target="_blank">Slides.com</a>.</p>
+                <ul>
+                    <li><strong>Week 10</strong>: <a href="http://slides.com/jerome2710/ictlab-week-10" target="_blank">http://slides.com/jerome2710/ictlab-week-10</a></li>
+                </ul>
+                <hr>
+
+
+
+
                 <h2>Student information</h2>
                 <p>
                     Jerome Anker <<a href="mailto:0864155@hr.nl">0864155@hr.nl</a>><br>
