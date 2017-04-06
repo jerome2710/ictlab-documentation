@@ -264,14 +264,25 @@
                                 <td style="width:35%;">Deliverables</td>
                             </tr>
                         </thead>
+                        <?php
+                            function rowClass($week) {
+                                $curWeek = date('W');
+                                if ($week == $curWeek) {
+                                    return ' class="warning"';
+                                } elseif ($week < $curWeek) {
+                                    return ' class="success"';
+                                }
+                                return '';
+                            }
+                        ?>
                         <tbody>
-                            <tr class="success">
+                            <tr<?php print rowClass(7); ?>>
                                 <td>2</td>
                                 <td>7</td>
                                 <td>Kick-off & server configuration</td>
                                 <td>Teams</td>
                             </tr>
-                            <tr class="success">
+                            <tr<?php print rowClass(8); ?>>
                                 <td>3</td>
                                 <td>8</td>
                                 <td>
@@ -280,49 +291,49 @@
                                 </td>
                                 <td></td>
                             </tr>
-                            <tr class="success">
+                            <tr<?php print rowClass(9); ?>>
                                 <td></td>
                                 <td>9</td>
                                 <td>Data accumulation (MQTT)</td>
                                 <td></td>
                             </tr>
-                            <tr class="success">
+                            <tr<?php print rowClass(10); ?>>
                                 <td>4</td>
                                 <td>10</td>
                                 <td>Data processing (NodeJS & API)</td>
                                 <td>Planning</td>
                             </tr>
-                            <tr class="success">
+                            <tr<?php print rowClass(11); ?>>
                                 <td>5</td>
                                 <td>11</td>
                                 <td>Data processing (NodeJS & API)</td>
                                 <td></td>
                             </tr>
-                            <tr class="success">
+                            <tr<?php print rowClass(12); ?>>
                                 <td>6</td>
                                 <td>12</td>
                                 <td>Data processing (NodeJS & API)</td>
                                 <td></td>
                             </tr>
-                            <tr class="warning">
+                            <tr<?php print rowClass(13); ?>>
                                 <td>7</td>
                                 <td>13</td>
                                 <td>Data processing (NodeJS & API)</td>
                                 <td>Planning</td>
                             </tr>
-                            <tr>
+                            <tr<?php print rowClass(14); ?>>
                                 <td>8</td>
                                 <td>14</td>
                                 <td>Data visualization (Symfony)</td>
                                 <td></td>
                             </tr>
-                            <tr>
+                            <tr<?php print rowClass(15); ?>>
                                 <td>9</td>
                                 <td>15</td>
                                 <td>Data visualization (Symfony)</td>
                                 <td></td>
                             </tr>
-                            <tr>
+                            <tr<?php print rowClass(16); ?>>
                                 <td>10</td>
                                 <td>16</td>
                                 <td>Data visualization (Symfony)</td>
@@ -331,49 +342,49 @@
                                     Presentation
                                 </td>
                             </tr>
-                            <tr>
+                            <tr<?php print rowClass(17); ?>>
                                 <td></td>
                                 <td>17</td>
                                 <td></td>
                                 <td></td>
                             </tr>
-                            <tr>
+                            <tr<?php print rowClass(18); ?>>
                                 <td>11</td>
                                 <td>18</td>
                                 <td></td>
                                 <td>Planning</td>
                             </tr>
-                            <tr>
+                            <tr<?php print rowClass(19); ?>>
                                 <td>12</td>
                                 <td>19</td>
                                 <td></td>
                                 <td></td>
                             </tr>
-                            <tr>
+                            <tr<?php print rowClass(20); ?>>
                                 <td>13</td>
                                 <td>20</td>
                                 <td></td>
                                 <td></td>
                             </tr>
-                            <tr>
+                            <tr<?php print rowClass(21); ?>>
                                 <td>14</td>
                                 <td>21</td>
                                 <td></td>
                                 <td>Planning</td>
                             </tr>
-                            <tr>
+                            <tr<?php print rowClass(22); ?>>
                                 <td>15</td>
                                 <td>22</td>
                                 <td></td>
                                 <td></td>
                             </tr>
-                            <tr>
+                            <tr<?php print rowClass(23); ?>>
                                 <td>16</td>
                                 <td>23</td>
                                 <td></td>
                                 <td></td>
                             </tr>
-                            <tr>
+                            <tr<?php print rowClass(24); ?>>
                                 <td>17</td>
                                 <td>24</td>
                                 <td></td>
@@ -382,7 +393,7 @@
                                     Presentation
                                 </td>
                             </tr>
-                            <tr>
+                            <tr<?php print rowClass(25); ?>>
                                 <td>18</td>
                                 <td>25</td>
                                 <td></td>
