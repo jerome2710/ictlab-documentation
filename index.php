@@ -234,6 +234,7 @@
                 <ul>
                     <li>Documentation: <a href="https://github.com/jerome2710/ictlab-documentation" target="_blank">https://github.com/jerome2710/ictlab-documentation</a></li>
                     <li>NodeJS processor & API: <a href="https://github.com/jerome2710/ictlab-api" target="_blank">https://github.com/jerome2710/ictlab-api</a></li>
+                    <li>NodeJS data faker: <a href="https://github.com/jerome2710/ictlab-cron" target="_blank">https://github.com/jerome2710/ictlab-cron</a></li>
                     <li>Symfony visualization: <a href="https://github.com/jerome2710/ictlab-dashboard" target="_blank">https://github.com/jerome2710/ictlab-dashboard</a></li>
                 </ul>
                 <hr>
