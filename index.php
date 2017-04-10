@@ -179,6 +179,20 @@
                     NodeJS is perfectly capable of listening to websockets and thanks to Mosquitto, we can combine these two! With NodeJS listening to the MQTT-channel using
                     secure websockets, we can relay the sensor-data into MongoDB.
                 </p>
+                <h3><strong>Update week 8:</strong> InfluxDB</h3>
+                <p>
+                    With almost 100.000 rows inside MongoDB, problems started to rise with normalizing the data for the visualization charts. Data for the charts should contain fixed
+                    time intervals to create proper lines inside the chart. While MongoDB provides the aggregation-framework, queries began to get more and more complex.
+                </p>
+                <p>
+                    The author of the article <a href="http://www.nrg-media.de/2013/10/mongodb-aggregation-group-by-any-time-interval/" target="_blank">mongodb aggregation: group
+                    by any time interval</a> - Steffen - suggested to use InfluxDB instead. I have used InfluxDB before during their beta and was not satisfied with the opportunities.
+                    Developers publishing new versions were constantly breaking code or changing endpoints. But according Steffen, this has changed after the beta period.
+                </p>
+                <p>
+                    The MQTT listener & faker cron are already updated to use InfluxDB instead of MongoDB. The API and Symfony will follow soon, as well as examples on how to
+                    normalize data for the charts.
+                </p>
                 <hr>
 
 
